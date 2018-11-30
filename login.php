@@ -135,7 +135,7 @@ $RegisterAnAccount; ?></a>
             </div>
         </div>
         <div class="row text-center">
-            <small >derechos para dagni speed echo Date('Y'); ?> tu solucion de ventas  | dagni speed  Reserved</small><br>
+            <small >derechos para dagni speed   tu solucion de ventas  | dagni speed derechos Reservados</small><br>
             <small >Winamba bilwi</small>
         </div>
     </div>

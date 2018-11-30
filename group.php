@@ -49,3 +49,20 @@
            </td>
            <td class="text-center">
              <div class="btn-group">
+              <a href="edit_group.php?id=<?php echo (int)$a_group['id'];?>" class="btn btn-xs btn-warning" data-toggle="tooltip" title="Editar">
+                  <i class="glyphicon glyphicon-pencil"></i>
+               </a>
+                <a href="delete_group.php?id=<?php echo (int)$a_group['id'];?>" class="btn btn-xs btn-danger" data-toggle="tooltip" title="Eliminar">
+                  <i class="glyphicon glyphicon-remove"></i>
+                </a>
+                </div>
+           </td>
+          </tr>
+        <?php endforeach;?>
+       </tbody>
+     </table>
+     </div>
+    </div>
+  </div>
+</div>
+  <?php include_once('layouts/footer.php'); ?>

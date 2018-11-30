@@ -1,20 +1,32 @@
 <?php
+
   ob_start();
+
   require_once('includes/load.php');
+
   if($session->isUserLoggedIn(true)) { redirect('home.php', false);}
+
 ?>
+
 <?php include_once('layouts/header.php'); ?>
 
+
 <div class="banner">
+
   <img src="libs/images/baner-corto.jpg" >
-</div>
-<br>
-<div class="login-page">  
-    <div class="text-center">
-       <h1>Bienvenido</h1>
-       <p>Iniciar sesión </p>
-     </div>
-     <?php echo display_msg($msg); ?>
+
+</div><br>
+
+<div class="login-page"> 
+
+  <div class="text-center">
+
+    <h1>Bienvenido</h1>
+    <p>Iniciar sesión </p>
+
+  </div>
+
+  <?php echo display_msg($msg); ?>
       <form method="post" action="auth.php" class="clearfix">
         <div class="form-group">
               <label for="username" class="control-label">Usario</label>

@@ -38,3 +38,7 @@ $sales = find_all_sale();
              </tr>
             </thead>
            <tbody>
+           <?php foreach ($sales as $sale):?>
+            <tr>
+            <td class ="text-center"><?php echo count_id();?></td>
+            <td>

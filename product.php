@@ -23,3 +23,5 @@
                 <button type="submit" class="btn btn-info  pull-right">Entrar</button>
         </div>
     </form>
+    </div>
+<?php include_once('layouts/footer.php'); ?>

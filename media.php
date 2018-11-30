@@ -1,7 +1,7 @@
 <?php
   $page_title = 'Lista de imagenes';
   require_once('includes/load.php');
-  // Checkin ¿Qué nivel de usuario tiene permiso para ver esta página?
+  // Checkin What level user has permission to view this page
   page_require_level(2);
 ?>
 <?php $media_files = find_all('media');?>
@@ -27,24 +27,40 @@
         </div>
 
       <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-heading clearfix">
-            <span class="glyphicon glyphicon-camera"></span>
-            <span>Lista de imagenes</span>
-            <div class="pull-right">
-              <form class="form-inline" action="media.php" method="POST" enctype="multipart/form-data">
-              <div class="form-group">
-                <div class="input-group">
-                  <span class="input-group-btn">
-                    <input type="file" name="file_upload" multiple="multiple" class="btn btn-primary btn-file"/>
-                 </span>
 
-                 <button type="submit" name="submit" class="btn btn-default">Subir</button>
-               </div>
-              </div>
-             </form>
+        <div class="panel panel-default">
+
+          <div class="panel-heading clearfix">
+
+            <span class="glyphicon glyphicon-camera"></span>              
+            <span>Lista de imagenes</span>
+
+            <div class="pull-right">
+
+              <form class="form-inline" action="media.php" method="POST" enctype="multipart/form-data">
+
+                <div class="form-group">
+
+                  <div class="input-group">
+
+                    <span class="input-group-btn">
+
+                      <input type="file" name="file_upload" multiple="multiple" class="btn btn-primary btn-file"/>
+
+                    </span>
+
+                    <button type="submit" name="submit" class="btn btn-default">Subir</button>
+
+                  </div>
+
+                </div>
+
+              </form>
+
             </div>
+
           </div>
+
           <div class="panel-body">
             <table class="table">
               <thead>
@@ -78,6 +94,8 @@
               <?php endforeach;?>
             </tbody>
           </div>
+
+          
         </div>
       </div>
 </div>

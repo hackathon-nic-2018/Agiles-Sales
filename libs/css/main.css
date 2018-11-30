@@ -11,7 +11,23 @@ body{
   text-decoration: none;
 }.padding-top{
   padding-top: 20px;
-}.login-page{
+}
+.banner{
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding:0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.banner img{
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px 0px 0px 0px
+}
+.login-page{
   width: 350px;
   margin: 7% auto;
   padding: 0 20px;
@@ -304,4 +320,3 @@ input[type=file]{
   width: 125px;
   height: 125px;
 }
-

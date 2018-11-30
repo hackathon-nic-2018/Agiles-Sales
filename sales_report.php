@@ -27,3 +27,14 @@ $page_title = 'Reporte de ventas';
                   <input type="text" class="datepicker form-control" name="end-date" placeholder="To">
                 </div>
             </div>
+           
+            <div class="form-group">
+                 <button type="submit" name="submit" class="btn btn-primary">Generar Reporte</button>
+            </div>
+          </form>
+      </div>
+
+    </div>
+  </div>
+
+</div>

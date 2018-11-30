@@ -137,7 +137,7 @@ $RegisterAnAccount; ?></a>
         <div class="row text-center">
             <small >derechos para dagni speed   tu solucion de ventas  | dagni speed derechos Reservados</small><br>
             <small >Winamba bilwi</small>
-        </div>
+            
     </div>
 
     <!-- jQuery Version 1.11.0 -->

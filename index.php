@@ -4,7 +4,12 @@
   if($session->isUserLoggedIn(true)) { redirect('home.php', false);}
 ?>
 <?php include_once('layouts/header.php'); ?>
-<div class="login-page">
+
+<div class="banner">
+  <img src="libs/images/baner-corto.jpg" >
+</div>
+<br>
+<div class="login-page">  
     <div class="text-center">
        <h1>Bienvenido</h1>
        <p>Iniciar sesión </p>

@@ -10,3 +10,9 @@ $page_title = 'Reporte de ventas';
     <?php echo display_msg($msg); ?>
   </div>
 </div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel">
+      <div class="panel-heading">
+
+      </div>

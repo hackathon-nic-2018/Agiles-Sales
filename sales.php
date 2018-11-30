@@ -25,3 +25,16 @@ $sales = find_all_sale();
             <a href="add_sale.php" class="btn btn-primary">Agregar venta</a>
           </div>
         </div>
+        <div class="panel-body">
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th class="text-center" style="width: 50px;">#</th>
+                <th> Nombre del producto </th>
+                <th class="text-center" style="width: 15%;"> Cantidad</th>
+                <th class="text-center" style="width: 15%;"> Total </th>
+                <th class="text-center" style="width: 15%;"> Fecha </th>
+                <th class="text-center" style="width: 100px;"> Acciones </th>
+             </tr>
+            </thead>
+           <tbody>

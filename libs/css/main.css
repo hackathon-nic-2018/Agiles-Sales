@@ -27,14 +27,30 @@ body{
   padding: 0px;
   margin: 0px 0px 0px 0px
 }
+#estadios{
+  position: relative;
+  margin: auto;
+  top: 20px;
+  width: 900px;
+  height: 450px;
+  border:5px solid white;
+  border-radius: 10px;
+}
+/*#estadios img{
+  width: 100%;
+  position: absolute;
+  border-radius: 10px;
+}*/
 .login-page{
   width: 350px;
-  margin: 7% auto;
-  padding: 0 20px;
+  margin: 11% auto;
+  padding: 0 10px;
+  position: absolute;
+  right: 550px;
   background-color: #f9f9f9;
   border: 1px solid #f2f2f2;
 }.login-page .text-center{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }.box{
   padding: 20px;
   background-color: #f9f9f9;
@@ -319,4 +335,42 @@ input[type=file]{
 }img.img-size-2{
   width: 125px;
   height: 125px;
+}
+
+/***********************************************
+BLOQUE 04
+***********************************************/
+
+section#bloque4{
+  position: relative;
+  margin: 0px auto;
+  top:-200px;
+  width:900px;
+  height:650px;
+  background:rgba(0,0,0,0);
+}
+
+#galeria{
+  position: relative;
+  margin: auto;
+  width: 900px;
+}
+
+#galeria li{
+  float: left;
+  width: 187px;
+  height: 187px;
+  margin: 15px;
+  overflow: hidden;
+  border:4px solid white;
+  cursor: pointer;
+}
+
+#galeria li:hover{
+
+  opacity: 0.6;
+}
+
+#galeria li img{
+  width:180%;
 }
